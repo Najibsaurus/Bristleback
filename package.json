@@ -2,9 +2,15 @@
   "name": "bristleback",
   "version": "0.0.1",
   "description": "Lightweight browser video recorder",
-  "main": "dist/index.js",
+  "main": "dist/VideoRecorder.js",
+  "module": "dist/VideoRecorder.esm.js",
+  "types": "dist/VideoRecorder.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -18,6 +24,12 @@
   ],
   "author": "Najibsaurus",
   "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.60.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.5.0"
+  },
   "bugs": {
     "url": "https://github.com/Najibsaurus/Bristleback/issues"
   },
