@@ -10,7 +10,8 @@ Bristleback is an easy-to-use library that helps developers implement video reco
 - Support for external camera and microphone
 - Pause/Resume recording capability
 - Timer, Save, Download functionality
-- Audio Equalizer 
+- Audio Equalizer
+- Microphone Indicator
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -39,5 +40,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-Would you like me to explain any specific part of the documentation in more detail?
